@@ -12,6 +12,7 @@ public class Framework {
 		Framework f = new Framework();
 		f.sortArraySortBySri();
 		f.sortArrayByMeena();
+		f.sortArrayByMani6726();
 	}
 
 	public static void baseClassMethod() {
@@ -73,5 +74,27 @@ public class Framework {
         System.out.println("Before List sort" +al);
         Collections.sort(al);
         System.out.println("After List sort" +al);
-        }
 }
+
+public void sortArrayByMani6726() {
+
+	String[] arr = new String[] { "m", "a", "n", "i", "k","a", "n","d", "a", "n" };
+	Arrays.sort(arr);
+	System.out.println("print manikandan");
+	for (int i = 0; i < arr.length; i++) {
+        System.out.println(arr[i]);
+
+	}
+
+
+
+
+
+
+
+
+
+}
+
+
+
