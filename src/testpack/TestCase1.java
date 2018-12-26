@@ -10,4 +10,8 @@ public class TestCase1 {
 	public static void testCase1() {
 		System.out.println("this is my test case1");
 	}
+
+	public static void add(int a, int b, int c) {
+		System.out.println(a + b + c);
+	}
 }
