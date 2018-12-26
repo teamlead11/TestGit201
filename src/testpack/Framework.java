@@ -49,7 +49,7 @@ public class Framework {
 	
 		int num[]= {10,5,30,20,15};
 		
-		System.out.println("Before Sorting:");
+		System.out.println("the numbers in array");
 		for(int i:num) {
 			System.out.println(i);
 		}
