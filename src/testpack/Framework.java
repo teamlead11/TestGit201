@@ -83,5 +83,15 @@ public class Framework {
         Collections.sort(al);
         System.out.println("After List sort" +al);
         }
-
+	public void sortArrayByShruthi() {
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		array.add(2);
+        array.add(7);
+        array.add(4);
+        array.add(9);
+        array.add(1);
+        System.out.println("Before sort" +array);
+        Collections.sort(array);
+        System.out.println("After sort" +array);
+        }
 }
