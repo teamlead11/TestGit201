@@ -17,6 +17,7 @@ public class Framework {
 		f.sortArraySortBySri();
 		f.sortArrayByMeena();
 		sortArrayJanani();
+		f.sortArrayBySabarish();
 	}
 
 	public static void sortArrayByAravindan() {
@@ -94,4 +95,16 @@ public class Framework {
         Collections.sort(array);
         System.out.println("After sort" +array);
         }
+	public static void sortArrayBySabarish() {
+		int a[]= {17,03,10,28,15,30};
+		for (int i=0;i<a.length;i++) {
+			for (int j=i+1;j<a.length;j++) {
+				if(a[i]>a[j]) {
+					int b = a[i];
+					a[i]=a[j];
+					a[j]=b;
+				}
+			}System.out.print(a[i] + " ");
+		}
+}
 }
