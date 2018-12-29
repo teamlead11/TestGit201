@@ -13,5 +13,8 @@ public class TestCase2 {
 
 	public static void add(int a, int b) {
 		System.out.println(a + b);
+		System.out.println(a);
+		System.out.println(b);
+		
 	}
 }
