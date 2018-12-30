@@ -105,4 +105,15 @@ public class Framework {
         Collections.sort(a);
         System.out.println("After sort" +a);
 	}
+	public void sortArrayByAbinaya() {
+		ArrayList<Integer> sort = new ArrayList<Integer>();
+		sort.add(32);
+		sort.add(56);
+		sort.add(5);
+		sort.add(4);
+        System.out.println("Before sort" +sort);
+        Collections.sort(sort);
+        System.out.println("After sort" +sort);
+	}
+
 }
