@@ -11,10 +11,11 @@ public class TestCase2 {
 		System.out.println("this is my test case1");
 	}
 
-	public static void add(int a, int b) {
-		System.out.println(a + b);
+	public static void add(int a, int b, int c) {
+		System.out.println(a + b+c);
 		System.out.println(a);
 		System.out.println(b);
+		System.out.println(c);
 		
 	}
 }
