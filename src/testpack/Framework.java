@@ -93,5 +93,16 @@ public class Framework {
         System.out.println("Before sort" +array);
         Collections.sort(array);
         System.out.println("After sort" +array);
+        
         }
+	public void sortArrayBySuriya() {
+		ArrayList<Integer> a = new ArrayList<Integer>();
+		a.add(3);
+        a.add(0);
+        a.add(0);
+        a.add(6);
+        System.out.println("Before sort" +a);
+        Collections.sort(a);
+        System.out.println("After sort" +a);
+	}
 }
